@@ -1,0 +1,12 @@
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\bin\Debug\Tarot.exe.config
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\bin\Debug\Tarot.exe
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\bin\Debug\Tarot.pdb
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\bin\Debug\Tarot.xml
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.vbprojResolveAssemblyReference.cache
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.Form1.resources
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.Resources.resources
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.vbproj.GenerateResource.Cache
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.exe
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.xml
+c:\users\giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.pdb
+C:\Users\Giannis\documents\visual studio 2015\Projects\Tarot\Tarot\obj\Debug\Tarot.Form2.resources

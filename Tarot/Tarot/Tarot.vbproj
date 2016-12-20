@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F9D599D-9DCC-41A9-BB76-4138A38BC68D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Tarot.My.MyApplication</StartupObject>
+    <RootNamespace>Tarot</RootNamespace>
+    <AssemblyName>Tarot</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tarot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tarot.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imany - Don%27y Be So Shy.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imany - Don%27y Be So Shy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarot-background.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
